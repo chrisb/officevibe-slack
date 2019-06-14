@@ -19,6 +19,9 @@ GEM
     json (2.2.0)
     minitest (5.11.3)
     multipart-post (2.1.1)
+    officevibe (0.1.0)
+      faraday_middleware (~> 0.13.1)
+      json (~> 2.2.0)
     rake (12.3.2)
     slack-ruby-client (0.14.2)
       activesupport
@@ -40,8 +43,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   dotenv
-  faraday_middleware
-  json
+  officevibe
   rake
   slack-ruby-client
 
